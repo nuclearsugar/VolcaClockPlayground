@@ -32,6 +32,5 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
   - If the input signal is too low then nothing will happen.
 4. Check your system output level
   - If the output signal is too high then the receiving Volca will skip in a bizarre way. A good starting point is a volume of 50%.
-5. Jam!
-6. If neeeded, tweak the `Latency Offset`
+5. If neeeded, tweak the `Latency Offset`
   - If Pure Data and your audio interface are introducing too much latency, then you might need to purposefully add extra latency. This will hopefully push the augmented clock to be only one step behind, which is tricky to land precisely. But I suggest you first just start playing and then “tune” this if necessary after seeing how it feels.
