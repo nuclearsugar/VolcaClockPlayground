@@ -12,7 +12,7 @@ This Pure Data patch is a realtime clock augmentation tool for the Korg Volca se
 ###Requires use of Pd-Extended
 http://puredata.info/downloads/pd-extended/releases/0.43.4
 
-###Watch a demo
+###Watch a demo of VCP in action
 [![Volca Clock Playground Demo](https://img.youtube.com/vi/D63YXrjken0/0.jpg)](https://www.youtube.com/watch?v=D63YXrjken0)
 
 ###Example hardware setups
