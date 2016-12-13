@@ -1,0 +1,2 @@
+#N canvas 108 112 780 646 10;
+#X obj -10 -4 VCP_GUI_core;
