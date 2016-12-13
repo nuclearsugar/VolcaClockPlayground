@@ -35,3 +35,7 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
   - If the output signal is too high then the receiving Volca will skip in a bizarre way. A good starting point is a volume of 50%.
 6. If neeeded, tweak the `Latency Offset`
   - If Pure Data and your audio interface are introducing too much latency, then you might need to purposefully add extra latency. This will hopefully push the augmented clock to be only one step behind, which is tricky to land precisely. But I suggest you first just start playing and then “tune” this if necessary after seeing how it feels.
+
+###Watch a demo - Snap your fingers to drive the Volcas
+Stumbled across a happy accident when creating this tool.  I realized that I could use a person to drive the tempo of the Volcas. This can be as simple as your hands clapping and using the built-in mic of a Mac laptop. Or it can be more complex and mic only the kick drum of an actual drummer. Lots of possibilities to explore!
+[![Snap your fingers](https://img.youtube.com/vi/7tdasezAuxI/0.jpg)](https://www.youtube.com/watch?v=7tdasezAuxI)
