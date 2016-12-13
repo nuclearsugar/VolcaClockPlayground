@@ -16,21 +16,21 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
 [![Volca Clock Playground Demo](https://img.youtube.com/vi/D63YXrjken0/0.jpg)](https://www.youtube.com/watch?v=D63YXrjken0)
 
 ###Example hardware setups
-- Using external audio interface
+- Using an external audio interface
   - Volca Beats (sync out) > Audio interface input > Computer > Audio interface output > Volca Keys (sync in)
-- Using built-in audio card of computer
+- Using the built-in audio card of your computer
   - Volca Beats (sync out) > Computer mic input > Computer audio output > Volca Keys (sync in)
 - No audio interface, instead use computer as master clock source
   - Computer (headphones out) >>> Volca Keys (sync in)
 
 ###Getting Started
-- Checkmark `Enable DSP`
+1. Checkmark `Enable DSP`
   - This lets Pure Data process the incoming signal
-- Turn up `View Signal` and watch the VU meter
+2. Turn up `View Signal` and watch the VU meter
   - Check that the Volca clock is actually incoming correctly. You will probably need to adjust the Pure Data settings in top toolbar: Media/Audio Settings and check the input device and output device.
-- If needed, adjust the `Line-in Level`
+3. If needed, adjust the `Line-in Level`
   - If the input signal is too low then nothing will happen.
-- Check your system output level
+4. Check your system output level
   - If the output signal is too high then the receiving Volca will skip in a bizarre way. A good starting point is a volume of 50%.
-- If neeeded, tweak the `Latency Offset`
+5. If neeeded, tweak the `Latency Offset`
   - If Pure Data and your audio interface are introducing too much latency, then you might need to purposefully add extra latency. This will hopefully push the augmented clock to be only one step behind, which is tricky to land precisely. But I suggest you first just start playing and then “tune” this if necessary after seeing how it feels.
