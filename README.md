@@ -10,6 +10,7 @@ This Pure Data patch is a realtime clock augmentation tool for the Korg Volca se
 - Two versions of this patch are available. The GUI version *(VCP_GUI.pd and VCP_GUI_core.pd)* is optimized for playing and doesn't have clutter blocking your view. The editable version *(VCP_Editble.pd)* has a understandable signal path and is easier to edit; so you can edit the settings or add your own module if desired.
 
 ###Requires use of Pd-Extended
+It's free and open source. Available for Mac, Windows, & Linux.<br>
 http://puredata.info/downloads/pd-extended/releases/0.43.4
 
 ###Watch a demo of VCP in action
