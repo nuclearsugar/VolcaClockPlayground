@@ -16,11 +16,11 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
 [![Volca Clock Playground Demo](https://img.youtube.com/vi/D63YXrjken0/0.jpg)](https://www.youtube.com/watch?v=D63YXrjken0)
 
 ###Example hardware setups
-- Using an external audio interface
+- **Using an external audio interface**
   - Volca Beats (sync out) > Audio interface input > Computer > Audio interface output > Volca Keys (sync in)
-- Using the built-in audio card of a computer
+- **Using the built-in audio card of a computer**
   - Volca Beats (sync out) > Computer mic input > Computer audio output > Volca Keys (sync in)
-- No audio interface, instead use computer as master clock source
+- **No audio interface, instead use computer as master clock source**
   - Computer (headphones out) >>> Volca Keys (sync in)
 
 ###Getting Started
