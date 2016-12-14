@@ -28,10 +28,10 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
 1. Open the patch within Pure Data: *VCP_GUI.pd*
 2. Checkmark `Enable DSP`
   - Without this checkmarked, no input or output audio is possible!
-3. Make sure that the input device and output device is correct.
+3. It's imporant to confirm that the input device and output device is correct
   - The settings panel can be found in the top toolbar: Media > Audio Settings
 4. If you have a line-in signal, turn up `View Signal` and watch the VU meter
-  - Just to confirm that the Volca clock is actually incoming correctly
+  - Just to make sure that the Volca clock is actually incoming correctly
 5. If you have a line-in signal, adjust the `Line-in Level` if needed
   - If the input signal is too low then nothing will happen
 6. Check your system output level
