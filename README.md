@@ -32,11 +32,10 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
   - The settings panel can be found in the top toolbar: Media > Audio Settings
 4. If you have a line-in signal, turn up `View Signal` and watch the VU meter
   - Just to make sure that the Volca clock is actually incoming correctly
-5. If you have a line-in signal, adjust the `Line-in Level` if needed
-  - If the input signal is too low then nothing will happen
-6. Check your system output level
+  - If you can see the VU meter moving and yet the yellow box for `Input Clock` isn't flashing to the beat, then the input signal is too quiet and you should increase the `Line-in Level`.
+5. Check your system output level
   - If the output signal is too high then the receiving Volca will skip in a bizarre way. A good starting point is a volume of 50%.
-7. If neeeded, tweak the `Latency Offset`
+6. If neeeded, tweak the `Latency Offset`
   - If Pure Data and your audio interface are introducing too much latency, then you might need to purposefully add extra latency. This will hopefully push the augmented clock to be only one step behind, which is tricky to land precisely. But I suggest you first just start playing and then “tune” this if necessary after seeing how it feels.
 
 ###Watch a demo - Snap your fingers to drive the Volcas
