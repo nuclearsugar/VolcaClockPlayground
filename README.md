@@ -31,7 +31,7 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
 3. It's imporant to confirm that the *input device* and *output device* is correct.
   - The settings panel can be found in the top toolbar: *Media > Audio Settings*
 4. If you have a line-in signal, turn up `View Signal` and make sure the the VU meter is moving.
-  - This is just to confirm that the Volca clock is actually being received by Pure Data. If you don't see the VU meter moving at all, then your settings probably aren't setup correctly either in Pure Data, audio interface, or system settings. 
+  - This is just to confirm that the Volca clock is actually being received within Pure Data. If you don't see the VU meter moving at all, then your settings probably aren't setup correctly either in Pure Data, audio interface, or system settings. 
   - If you can see the VU meter moving and yet the yellow box for `Input Clock` isn't flashing to the beat, then the input signal is too quiet and you should increase the `Line-in Level`.
 5. Check your system output level.
   - If the output signal is too high then the receiving Volca will skip in a bizarre way. A good starting point is a volume of 50%.
