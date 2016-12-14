@@ -25,7 +25,7 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
   - *Computer (headphones out) > Volca Keys (sync in)*
 
 ###Getting Started
-1. Open the patch within Pure Data: *VCP_GUI.pd*
+1. Open the file *VCP_GUI.pd* within Pure Data.
 2. Checkmark `Enable DSP`
   - Without this checkmarked, no input or output audio is possible!
 3. It's imporant to confirm that the input device and output device is correct
