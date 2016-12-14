@@ -27,14 +27,16 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
 ###Getting Started
 1. Open the patch within Pure Data: *VCP_GUI.pd*
 2. Checkmark `Enable DSP`
-  - This lets Pure Data process the incoming signal
-3. Turn up `View Signal` and watch the VU meter
-  - Check that the Volca clock is actually incoming correctly. You will probably need to adjust the Pure Data settings in top toolbar: Media/Audio Settings and check the input device and output device.
-4. If needed, adjust the `Line-in Level`
-  - If the input signal is too low then nothing will happen.
-5. Check your system output level
+  - Without this checkmarked, no input or output audio is possible!
+3. Make sure that the input device and output device is correct.
+  - The settings panel can be found in the top toolbar: Media > Audio Settings
+4. If you have a line-in signal, turn up `View Signal` and watch the VU meter
+  - Just to confirm that the Volca clock is actually incoming correctly
+5. If you have a line-in signal, adjust the `Line-in Level` if needed
+  - If the input signal is too low then nothing will happen
+6. Check your system output level
   - If the output signal is too high then the receiving Volca will skip in a bizarre way. A good starting point is a volume of 50%.
-6. If neeeded, tweak the `Latency Offset`
+7. If neeeded, tweak the `Latency Offset`
   - If Pure Data and your audio interface are introducing too much latency, then you might need to purposefully add extra latency. This will hopefully push the augmented clock to be only one step behind, which is tricky to land precisely. But I suggest you first just start playing and then “tune” this if necessary after seeing how it feels.
 
 ###Watch a demo - Snap your fingers to drive the Volcas
