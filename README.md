@@ -1,6 +1,6 @@
 #Volca Clock Playground
 
-This Pure Data patch is a realtime clock augmentation tool for the Korg Volca series. By inputting the Volca clock into a computer, we can then play with the clock, and then send it into another Volca.
+This Pure Data patch is a realtime clock augmentation tool for the Korg Volca series. By inputting the Volca clock into a computer, we can then play with the clock, and then send it into another Volca. Also VCP can be the master clock for modular synth.
 
 ###Features
 - Modules include: `clock divider`, `clock multiplier`, `multiplier pulse`, `swing`, `swing pulse`, `skip step`, `random pass thru`, `mute`, `internal metronome`, and `manual trigger`.
@@ -25,7 +25,7 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
   - *Computer (headphones out) > Volca Keys (sync in)*
 
 ###Own a modular synthesizer?
-Want to use VCP simply as the master clock source? Just enable `Mute Line-in & Use Metro` to make VCP an independent clock source. This will instead use an metronome within Pure Data and bypass the need for an external clock source. You will need a [DC-coupled audio interface](http://www.expert-sleepers.co.uk/siwacompatibility.html) so that you can output a CV signal from your computer.
+Want to use VCP simply as the master clock source? You don't need to own a Volca. Just enable `Mute Line-in & Use Metro` to make VCP an independent clock source. This will instead use an metronome within Pure Data and bypass the need for an external clock source. You will need a [DC-coupled audio interface](http://www.expert-sleepers.co.uk/siwacompatibility.html) so that you can output a CV signal from your computer.
 
 ###Getting started with VCP
 1. Open the file *VCP_GUI.pd* within Pure Data.
