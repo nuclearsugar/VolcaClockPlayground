@@ -7,7 +7,7 @@ This Pure Data patch is a realtime clock augmentation tool for the Korg Volca se
 - The `Mute Line-in & Use Metro` will use an internal metronome instead of an external clock source. This is useful if you want to use this Pure Data patch as the master clock source. Or if you don’t have an audio interface.
 - The `Multiplier Pulse` will automatically turn on and off the `Clock Multiplier` after a set number of beats. The same goes for the `Swing Pulse`.
 - The `Metro Sound` is useful for listening to the clock source itself, especially since the clock pulse will damage your speakers. It will instead replace the clock pulse with a typical metronome sound. You can also select the metronome time signature by adjusting the `Metro Beats Per Bar` and therefore affect where the up beat lands.
-- Two versions of this patch are available. The GUI version *(VCP_GUI.pd and VCP_GUI_core.pd)* is optimized for playing and doesn't have clutter blocking your view. The editable version *(VCP_Editble.pd)* has a understandable signal path and is easier to edit; so you can edit the settings or add your own module if desired.
+- Two versions of this patch are available. The GUI version *(VCP_GUI.pd and VCP_GUI_core.pd)* is optimized for playing and doesn't have clutter blocking your view. The editable version *(VCP_Editable.pd)* has a understandable signal path and is easier to edit; so you can edit the settings or add your own module if desired.
 
 ###Requires use of Pd-Extended
 It's free and open source. Available for Mac, Windows, & Linux.<br>
