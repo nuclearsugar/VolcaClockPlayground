@@ -1,5 +1,5 @@
 #Volca Clock Playground
-VCP is a realtime clock augmentation tool for the Korg Volca series. By inputting the Volca clock into a computer, we can then play with the clock and then send it into another Volca. But VCP can also be used in a different way and instead generate a master clock for the Volcas, which is useful for a modular synth.
+VCP is a realtime clock augmentation tool for the Korg Volca series. By inputting the Volca clock into a computer, we can then play with the clock and then send it into another Volca. But VCP can also be used in a different mode and instead generate a master clock for the Volcas, which is also useful for a modular synth.
 
 ###Features
 - Modules include: `clock divider`, `clock multiplier`, `multiplier pulse`, `swing`, `swing pulse`, `skip step`, `random pass thru`, `mute`, `internal metronome`, and `manual trigger`.
