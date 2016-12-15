@@ -42,5 +42,5 @@ Want to use VCP simply as the master clock source? Just enable `Mute Line-in & U
   - If Pure Data and your audio interface are introducing too much latency, then you might need to purposefully add extra latency. Although counterintuitive, this will effectively push the augmented clock to be only one full step behind, though it is tricky to land precisely. But I suggest you first just start playing and then “tune” this if necessary after seeing how it feels.
 
 ###Watch a demo - Snap your fingers to drive the Volcas
-Stumbled across a happy accident when creating this tool.  I realized that I could have a person actually drive the tempo in realtime. This can be as simple as your hands clapping and using the built-in mic of a Mac laptop. You could also mic the kick drum of a real drum kit and then jam on your synths with a human drummer. Lots of possibilities to explore!
+Stumbled across a happy accident when creating this tool.  I realized that I could have a person actually drive the tempo in realtime. This can be as simple as your hands clapping and using the built-in mic of a Mac laptop. You could also mic the kick drum of a real drum kit and then jam on your synths with a human drummer. Lots of possibilities to explore! <br>
 [![Snap your fingers](https://img.youtube.com/vi/7tdasezAuxI/0.jpg)](https://www.youtube.com/watch?v=7tdasezAuxI)
