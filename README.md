@@ -24,7 +24,10 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
 - No audio interface, instead use computer as master clock source
   - *Computer (headphones out) > Volca Keys (sync in)*
 
-###Getting Started
+###Own a modular synthesizer?
+Want to use VCP as the master clock source? Just enable `Mute Line-in & Use Metro`. This will instead use an metronome within Pure Data and bypass the need for an external clock source.
+
+###Getting started with VCP
 1. Open the file *VCP_GUI.pd* within Pure Data.
 2. Checkmark `Enable DSP`.
   - Without this checkmarked, no input or output audio is possible!
