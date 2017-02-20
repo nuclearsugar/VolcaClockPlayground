@@ -18,7 +18,7 @@ http://puredata.info/downloads/pd-extended/releases/0.43.4
 ###Example hardware setups
 - Using an external audio interface
   - *Volca Beats (sync out) > Audio input > Computer > Audio output > Volca Keys (sync in)*
-- Using the built-in audio card of a computer
+- Using the built-in sound card of a computer
   - *Volca Beats (sync out) > Computer mic input > Computer headphone output > Volca Keys (sync in)*
 - No audio interface, instead use computer as master clock source
   - *Computer (headphones out) > Volca Keys (sync in)*
